@@ -1,0 +1,6 @@
+# Ignorar entorno virtual
+.venv/
+__pycache__/
+
+# Ignorar archivos binarios de la base de datos
+*.durus

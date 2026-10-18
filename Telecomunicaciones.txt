@@ -1,0 +1,14 @@
+Telecomunicaciones
+Principal propulsor de las telecomunicaciones el internet
+
+Sistema de comunicacion:Emisor/Transmisor,mensaje,recepctor
+
+Sistema de telecomunicaciones:Transmisor,mensaje,medios:Fisicos,digitales,visuales,codigos,protocolos,eceptor
+
+
+FUNCIONES E UN PROTOCOLO:
+1.Puede localizar una computadora sin equivocarse
+2.Realiza  una conexion con otra computadora
+3.Intercambia informacion con otra computadora de forma segura esto se hace independientemente de lo equipos que se utilicen
+4.abstrae a los usuarios de los enlaces utilizados para el intercambio de informacion
+5.Permite liberar conexiones de forma segura 
