@@ -84,7 +84,7 @@ classDiagram
     Payment --> Client : referencia inversa
 ```
 
-## Las 8 características y dónde están en el código
+## Aplicacion de los elementos y su parte en el codigo
 
 | # | Característica | Dónde |
 |---|---|---|
@@ -96,4 +96,4 @@ classDiagram
 | 6 | **Transacciones** | `GymDB.commit()` y `GymDB.abort()`; `main.py` sección 6 confirma un pago y revierte otro, verificándolo en disco |
 | 7 | **Navegación del grafo** | `repository.py`: 5 consultas (`payments_of`, `membership_name_of`, `total_paid_by`, `clients_by_branch`, `gym_revenue`), cada una documentada con su SQL equivalente |
 | 8 | **CRUD funcional** | Alta, consulta, modificación y baja. `delete_client()` demuestra la **cascada**: los pagos desaparecen con el cliente (composición), la membresía sobrevive (agregación) |
-
+  
